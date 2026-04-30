@@ -1,0 +1,59 @@
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mqtt_broker
+    ports:
+      - "1883:1883"   # Kết nối không mã hóa
+      - "8884:8883"   # Cổng TLS trực tiếp của Broker (map ra 8884)
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/passwd:/mosquitto/config/passwd
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+      - ./mosquitto/certs:/mosquitto/config/certs:ro
+    networks:
+      - mqtt_net
+
+  mosquitto2:
+    image: eclipse-mosquitto:latest
+    container_name: mqtt_broker_2
+    ports:
+      - "1885:1883"   # Đổi để không trùng với Broker 1 (nếu cần test lẻ)
+      - "8885:8883"   # Cổng TLS trực tiếp của Broker 2
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/passwd:/mosquitto/config/passwd
+      - ./mosquitto/data2:/mosquitto/data
+      - ./mosquitto/log2:/mosquitto/log
+      - ./mosquitto/certs:/mosquitto/config/certs:ro
+    networks:
+      - mqtt_net
+
+  haproxy:
+    image: haproxy:latest
+    container_name: mqtt_proxy
+    depends_on:       # Đảm bảo HAProxy khởi động sau khi các Broker đã sẵn sàng
+      - mosquitto
+      - mosquitto2
+    ports:
+      - "8883:8883"   # Cổng TLS Offloading (Client kết nối vào đây)
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - ./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+      - ./haproxy/certs/mqtt.pem:/etc/ssl/certs/mqtt.pem:ro
+    networks:
+      - mqtt_net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  mqtt_net:
+    driver: bridge

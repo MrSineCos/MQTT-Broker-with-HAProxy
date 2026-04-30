@@ -1,0 +1,483 @@
+1777221973: mosquitto version 2.1.2 starting
+1777221973: Config loaded from /mosquitto/config/mosquitto.conf.
+1777221973: Bridge support available.
+1777221973: Persistence support available.
+1777221973: TLS support available.
+1777221973: TLS-PSK support available.
+1777221973: Websockets support available.
+1777221973: Plugin builtin-security has registered to receive 'basic-auth' events.
+1777221973: Opening ipv4 listen socket on port 1883.
+1777221973: mosquitto version 2.1.2 running
+1777222007: mosquitto version 2.1.2 terminating
+1777222007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777222030: mosquitto version 2.1.2 starting
+1777222030: Config loaded from /mosquitto/config/mosquitto.conf.
+1777222030: Bridge support available.
+1777222030: Persistence support available.
+1777222030: TLS support available.
+1777222030: TLS-PSK support available.
+1777222030: Websockets support available.
+1777222030: Plugin builtin-security has registered to receive 'basic-auth' events.
+1777222030: Opening ipv4 listen socket on port 1883.
+1777222030: mosquitto version 2.1.2 running
+1777222775: mosquitto version 2.1.2 terminating
+1777222775: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T16:59:36: mosquitto version 2.1.2 starting
+2026-04-26T16:59:36: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T16:59:36: Bridge support available.
+2026-04-26T16:59:36: Persistence support available.
+2026-04-26T16:59:36: TLS support available.
+2026-04-26T16:59:36: TLS-PSK support available.
+2026-04-26T16:59:36: Websockets support available.
+2026-04-26T16:59:36: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-26T16:59:36: Opening ipv4 listen socket on port 1883.
+2026-04-26T16:59:36: mosquitto version 2.1.2 running
+2026-04-26T17:01:53: mosquitto version 2.1.2 terminating
+2026-04-26T17:01:53: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T17:01:53: mosquitto version 2.1.2 starting
+2026-04-26T17:01:53: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T17:01:53: Bridge support available.
+2026-04-26T17:01:53: Persistence support available.
+2026-04-26T17:01:53: TLS support available.
+2026-04-26T17:01:53: TLS-PSK support available.
+2026-04-26T17:01:53: Websockets support available.
+2026-04-26T17:01:53: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-26T17:01:53: Opening ipv4 listen socket on port 1883.
+2026-04-26T17:01:53: mosquitto version 2.1.2 running
+2026-04-26T17:02:43: mosquitto version 2.1.2 terminating
+2026-04-26T17:02:43: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T17:02:49: mosquitto version 2.1.2 starting
+2026-04-26T17:02:49: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T17:02:49: Bridge support available.
+2026-04-26T17:02:49: Persistence support available.
+2026-04-26T17:02:49: TLS support available.
+2026-04-26T17:02:49: TLS-PSK support available.
+2026-04-26T17:02:49: Websockets support available.
+2026-04-26T17:02:49: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-26T17:02:49: Opening ipv4 listen socket on port 1883.
+2026-04-26T17:02:49: mosquitto version 2.1.2 running
+2026-04-26T17:22:01: mosquitto version 2.1.2 terminating
+2026-04-26T17:22:01: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T17:22:01: mosquitto version 2.1.2 starting
+2026-04-26T17:22:01: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T17:22:01: Bridge support available.
+2026-04-26T17:22:01: Persistence support available.
+2026-04-26T17:22:01: TLS support available.
+2026-04-26T17:22:01: TLS-PSK support available.
+2026-04-26T17:22:01: Websockets support available.
+2026-04-26T17:22:01: password-file: Error: Unable to open pwfile "/mosquitto/config/passwd".
+2026-04-26T17:22:01: mosquitto version 2.1.2 terminating
+2026-04-26T17:22:01: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T17:22:56: mosquitto version 2.1.2 starting
+2026-04-26T17:22:56: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T17:22:56: Bridge support available.
+2026-04-26T17:22:56: Persistence support available.
+2026-04-26T17:22:56: TLS support available.
+2026-04-26T17:22:56: TLS-PSK support available.
+2026-04-26T17:22:56: Websockets support available.
+2026-04-26T17:22:56: password-file: Error: Unable to open pwfile "/mosquitto/config/passwd".
+2026-04-26T17:22:56: mosquitto version 2.1.2 terminating
+2026-04-26T17:22:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T17:25:05: mosquitto version 2.1.2 starting
+2026-04-26T17:25:05: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T17:25:05: Bridge support available.
+2026-04-26T17:25:05: Persistence support available.
+2026-04-26T17:25:05: TLS support available.
+2026-04-26T17:25:05: TLS-PSK support available.
+2026-04-26T17:25:05: Websockets support available.
+2026-04-26T17:25:05: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-26T17:25:05: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-26T17:25:05: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-26T17:25:05: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-26T17:25:05: Opening ipv4 listen socket on port 1883.
+2026-04-26T17:25:05: mosquitto version 2.1.2 running
+2026-04-26T17:25:57: New connection from 172.18.0.4:41574 on port 1883.
+2026-04-26T17:25:57: New client connected from 172.18.0.4:41574 as Client_Step_1_bal1 (p4, c1, k60, u'bal1').
+2026-04-26T17:25:58: Client Client_Step_1_bal1 [172.18.0.4:41574] disconnected.
+2026-04-26T17:26:02: New connection from 172.18.0.4:36412 on port 1883.
+2026-04-26T17:26:02: New client connected from 172.18.0.4:36412 as Client_Step_4_bal2 (p4, c1, k60, u'bal2').
+2026-04-26T17:26:03: Client Client_Step_4_bal2 [172.18.0.4:36412] disconnected.
+2026-04-26T17:33:51: mosquitto version 2.1.2 terminating
+2026-04-26T17:33:51: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-26T17:33:57: mosquitto version 2.1.2 starting
+2026-04-26T17:33:57: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-26T17:33:57: Bridge support available.
+2026-04-26T17:33:57: Persistence support available.
+2026-04-26T17:33:57: TLS support available.
+2026-04-26T17:33:57: TLS-PSK support available.
+2026-04-26T17:33:57: Websockets support available.
+2026-04-26T17:33:57: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-26T17:33:57: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-26T17:33:57: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-26T17:33:57: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-26T17:33:57: Opening ipv4 listen socket on port 1883.
+2026-04-26T17:33:57: mosquitto version 2.1.2 running
+2026-04-26T17:34:04: New connection from 172.18.0.4:43228 on port 1883.
+2026-04-26T17:34:04: New client connected from 172.18.0.4:43228 as Client_Step_2_bal2 (p4, c1, k60, u'bal2').
+2026-04-26T17:34:05: Client Client_Step_2_bal2 [172.18.0.4:43228] disconnected.
+2026-04-26T17:34:06: New connection from 172.18.0.4:43252 on port 1883.
+2026-04-26T17:34:06: New client connected from 172.18.0.4:43252 as Client_Step_3_bal1 (p4, c1, k60, u'bal1').
+2026-04-26T17:34:07: Client Client_Step_3_bal1 [172.18.0.4:43252] disconnected.
+2026-04-26T17:42:40: mosquitto version 2.1.2 terminating
+2026-04-26T17:42:40: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-27T00:42:44: mosquitto version 2.1.2 starting
+2026-04-27T00:42:44: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-27T00:42:44: Bridge support available.
+2026-04-27T00:42:44: Persistence support available.
+2026-04-27T00:42:44: TLS support available.
+2026-04-27T00:42:44: TLS-PSK support available.
+2026-04-27T00:42:44: Websockets support available.
+2026-04-27T00:42:44: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-27T00:42:44: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-27T00:42:44: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-27T00:42:44: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-27T00:42:44: Opening ipv4 listen socket on port 1883.
+2026-04-27T00:42:44: mosquitto version 2.1.2 running
+2026-04-27T00:57:33: New connection from 172.18.0.4:43240 on port 1883.
+2026-04-27T00:57:33: New connection from 172.18.0.4:43256 on port 1883.
+2026-04-27T00:57:33: New client connected from 172.18.0.4:43240 as AttackClient_1 (p4, c1, k10, u'user1').
+2026-04-27T00:57:33: New connection from 172.18.0.4:43258 on port 1883.
+2026-04-27T00:57:33: New client connected from 172.18.0.4:43256 as AttackClient_129 (p4, c1, k10, u'user1').
+2026-04-27T00:57:33: New client connected from 172.18.0.4:43258 as AttackClient_7 (p4, c1, k10, u'user1').
+2026-04-27T00:57:33: New connection from 172.18.0.4:43262 on port 1883.
+2026-04-27T00:57:33: New connection from 172.18.0.4:43270 on port 1883.
+2026-04-27T00:57:33: New client connected from 172.18.0.4:43262 as AttackClient_5 (p4, c1, k10, u'user1').
+2026-04-27T00:57:33: New client connected from 172.18.0.4:43270 as AttackClient_0 (p4, c1, k10, u'user1').
+2026-04-27T00:57:47: Client AttackClient_129 [172.18.0.4:43256] disconnected.
+2026-04-27T00:57:47: Client AttackClient_7 [172.18.0.4:43258] disconnected.
+2026-04-27T00:57:47: Client AttackClient_0 [172.18.0.4:43270] disconnected.
+2026-04-27T00:57:47: Client AttackClient_5 [172.18.0.4:43262] disconnected.
+2026-04-27T00:57:47: Client AttackClient_1 [172.18.0.4:43240] disconnected.
+2026-04-27T10:11:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T08:15:38: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T08:45:39: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T09:15:40: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T16:37:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T17:07:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T17:37:12: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-29T17:45:03: mosquitto version 2.1.2 terminating
+2026-04-29T17:45:03: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30T09:51:49: mosquitto version 2.1.2 starting
+2026-04-30T09:51:49: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30T09:51:49: Bridge support available.
+2026-04-30T09:51:49: Persistence support available.
+2026-04-30T09:51:49: TLS support available.
+2026-04-30T09:51:49: TLS-PSK support available.
+2026-04-30T09:51:49: Websockets support available.
+2026-04-30T09:51:49: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-30T09:51:49: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-30T09:51:49: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-30T09:51:49: Error: /mosquitto/config/passwd is not a file.
+2026-04-30T09:51:49: password-file: Error: Unable to open pwfile "/mosquitto/config/passwd".
+2026-04-30T09:51:49: mosquitto version 2.1.2 terminating
+2026-04-30T09:51:49: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30T09:57:23: mosquitto version 2.1.2 starting
+2026-04-30T09:57:23: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30T09:57:23: Bridge support available.
+2026-04-30T09:57:23: Persistence support available.
+2026-04-30T09:57:23: TLS support available.
+2026-04-30T09:57:23: TLS-PSK support available.
+2026-04-30T09:57:23: Websockets support available.
+2026-04-30T09:57:23: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-30T09:57:23: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-30T09:57:23: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-30T09:57:23: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30T09:57:23: Opening ipv4 listen socket on port 1883.
+2026-04-30T09:57:23: mosquitto version 2.1.2 running
+2026-04-30T09:57:42: mosquitto version 2.1.2 terminating
+2026-04-30T09:57:42: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 10:34:35: mosquitto version 2.1.2 starting
+2026-04-30 10:34:35: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 10:34:35: Bridge support available.
+2026-04-30 10:34:35: Persistence support available.
+2026-04-30 10:34:35: TLS support available.
+2026-04-30 10:34:35: TLS-PSK support available.
+2026-04-30 10:34:35: Websockets support available.
+2026-04-30 10:34:35: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-30 10:34:35: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-30 10:34:35: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-30 10:34:35: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 10:34:35: Opening ipv4 listen socket on port 1883.
+2026-04-30 10:34:35: Opening ipv4 listen socket on port 8883.
+2026-04-30 10:34:35: Error: Unable to load CA certificates. Check cafile "/mosquitto/config/certs/ca.crt".
+2026-04-30 10:34:35: OpenSSL Error [0]: error:80000002:system library::No such file or directory
+2026-04-30 10:34:35: OpenSSL Error [1]: error:10000080:BIO routines::no such file
+2026-04-30 10:34:35: OpenSSL Error [2]: error:05880020:x509 certificate routines::BIO lib
+2026-04-30 10:34:35: mosquitto version 2.1.2 terminating
+2026-04-30 10:34:35: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 10:37:57: mosquitto version 2.1.2 starting
+2026-04-30 10:37:57: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 10:37:57: Bridge support available.
+2026-04-30 10:37:57: Persistence support available.
+2026-04-30 10:37:57: TLS support available.
+2026-04-30 10:37:57: TLS-PSK support available.
+2026-04-30 10:37:57: Websockets support available.
+2026-04-30 10:37:57: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-30 10:37:57: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-30 10:37:57: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-30 10:37:57: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 10:37:57: Opening ipv4 listen socket on port 1883.
+2026-04-30 10:37:57: Opening ipv4 listen socket on port 8883.
+2026-04-30 10:37:57: Error: Unable to load CA certificates. Check cafile "/mosquitto/config/certs/ca.crt".
+2026-04-30 10:37:57: OpenSSL Error [0]: error:80000002:system library::No such file or directory
+2026-04-30 10:37:57: OpenSSL Error [1]: error:10000080:BIO routines::no such file
+2026-04-30 10:37:57: OpenSSL Error [2]: error:05880020:x509 certificate routines::BIO lib
+2026-04-30 10:37:57: mosquitto version 2.1.2 terminating
+2026-04-30 10:37:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 10:40:06: mosquitto version 2.1.2 starting
+2026-04-30 10:40:06: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 10:40:06: Bridge support available.
+2026-04-30 10:40:06: Persistence support available.
+2026-04-30 10:40:06: TLS support available.
+2026-04-30 10:40:06: TLS-PSK support available.
+2026-04-30 10:40:06: Websockets support available.
+2026-04-30 10:40:06: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-30 10:40:06: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-30 10:40:06: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-30 10:40:06: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 10:40:06: Opening ipv4 listen socket on port 1883.
+2026-04-30 10:40:06: Opening ipv4 listen socket on port 8883.
+2026-04-30 10:40:06: Error: Unable to load CA certificates. Check cafile "/mosquitto/config/certs/ca.crt".
+2026-04-30 10:40:06: OpenSSL Error [0]: error:80000002:system library::No such file or directory
+2026-04-30 10:40:06: OpenSSL Error [1]: error:10000080:BIO routines::no such file
+2026-04-30 10:40:06: OpenSSL Error [2]: error:05880020:x509 certificate routines::BIO lib
+2026-04-30 10:40:06: mosquitto version 2.1.2 terminating
+2026-04-30 10:40:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 10:48:02: mosquitto version 2.1.2 starting
+2026-04-30 10:48:02: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 10:48:02: Bridge support available.
+2026-04-30 10:48:02: Persistence support available.
+2026-04-30 10:48:02: TLS support available.
+2026-04-30 10:48:02: TLS-PSK support available.
+2026-04-30 10:48:02: Websockets support available.
+2026-04-30 10:48:02: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+
+2026-04-30 10:48:02: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+
+2026-04-30 10:48:02: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+
+2026-04-30 10:48:02: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 10:48:02: Opening ipv4 listen socket on port 1883.
+2026-04-30 10:48:02: Opening ipv4 listen socket on port 8883.
+2026-04-30 10:48:02: mosquitto version 2.1.2 running
+2026-04-30 10:52:38: mosquitto version 2.1.2 terminating
+2026-04-30 10:52:38: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 10:52:43: mosquitto version 2.1.2 starting
+2026-04-30 10:52:43: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 10:52:43: Bridge support available.
+2026-04-30 10:52:43: Persistence support available.
+2026-04-30 10:52:43: TLS support available.
+2026-04-30 10:52:43: TLS-PSK support available.
+2026-04-30 10:52:43: Websockets support available.
+2026-04-30 10:52:43: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 10:52:43: Opening ipv4 listen socket on port 1883.
+2026-04-30 10:52:43: Opening ipv4 listen socket on port 8883.
+2026-04-30 10:52:43: mosquitto version 2.1.2 running
+2026-04-30 11:03:40: mosquitto version 2.1.2 terminating
+2026-04-30 11:03:40: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:16:58: mosquitto version 2.1.2 starting
+2026-04-30 11:16:58: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:16:58: Bridge support available.
+2026-04-30 11:16:58: Persistence support available.
+2026-04-30 11:16:58: TLS support available.
+2026-04-30 11:16:58: TLS-PSK support available.
+2026-04-30 11:16:58: Websockets support available.
+2026-04-30 11:16:58: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:16:58: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:16:58: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:16:58: mosquitto version 2.1.2 running
+2026-04-30 11:32:26: mosquitto version 2.1.2 terminating
+2026-04-30 11:32:26: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:32:32: mosquitto version 2.1.2 starting
+2026-04-30 11:32:32: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:32:32: Bridge support available.
+2026-04-30 11:32:32: Persistence support available.
+2026-04-30 11:32:32: TLS support available.
+2026-04-30 11:32:32: TLS-PSK support available.
+2026-04-30 11:32:32: Websockets support available.
+2026-04-30 11:32:32: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:32:32: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:32:32: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:32:32: mosquitto version 2.1.2 running
+2026-04-30 11:33:25: mosquitto version 2.1.2 terminating
+2026-04-30 11:33:25: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:34:54: mosquitto version 2.1.2 starting
+2026-04-30 11:34:54: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:34:54: Bridge support available.
+2026-04-30 11:34:54: Persistence support available.
+2026-04-30 11:34:54: TLS support available.
+2026-04-30 11:34:54: TLS-PSK support available.
+2026-04-30 11:34:54: Websockets support available.
+2026-04-30 11:34:54: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:34:54: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:34:54: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:34:54: mosquitto version 2.1.2 running
+2026-04-30 11:35:02: mosquitto version 2.1.2 terminating
+2026-04-30 11:35:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:38:14: mosquitto version 2.1.2 starting
+2026-04-30 11:38:14: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:38:14: Bridge support available.
+2026-04-30 11:38:14: Persistence support available.
+2026-04-30 11:38:14: TLS support available.
+2026-04-30 11:38:14: TLS-PSK support available.
+2026-04-30 11:38:14: Websockets support available.
+2026-04-30 11:38:14: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:38:14: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:38:14: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:38:14: mosquitto version 2.1.2 running
+2026-04-30 11:38:31: New connection from 172.18.0.4:45036 on port 1883.
+2026-04-30 11:38:31: New client connected from 172.18.0.4:45036 as Client_Step_1_bal1 (p4, c1, k60, u'bal1').
+2026-04-30 11:38:32: Client Client_Step_1_bal1 [172.18.0.4:45036] disconnected.
+2026-04-30 11:38:34: New connection from 172.18.0.4:45052 on port 1883.
+2026-04-30 11:38:34: New client connected from 172.18.0.4:45052 as Client_Step_3_bal1 (p4, c1, k60, u'bal1').
+2026-04-30 11:38:35: Client Client_Step_3_bal1 [172.18.0.4:45052] disconnected.
+2026-04-30 11:43:29: mosquitto version 2.1.2 terminating
+2026-04-30 11:43:29: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:43:36: mosquitto version 2.1.2 starting
+2026-04-30 11:43:36: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:43:36: Bridge support available.
+2026-04-30 11:43:36: Persistence support available.
+2026-04-30 11:43:36: TLS support available.
+2026-04-30 11:43:36: TLS-PSK support available.
+2026-04-30 11:43:36: Websockets support available.
+2026-04-30 11:43:36: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:43:36: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:43:36: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:43:36: mosquitto version 2.1.2 running
+2026-04-30 11:44:44: mosquitto version 2.1.2 terminating
+2026-04-30 11:44:44: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:44:48: mosquitto version 2.1.2 starting
+2026-04-30 11:44:48: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:44:48: Bridge support available.
+2026-04-30 11:44:48: Persistence support available.
+2026-04-30 11:44:48: TLS support available.
+2026-04-30 11:44:48: TLS-PSK support available.
+2026-04-30 11:44:48: Websockets support available.
+2026-04-30 11:44:48: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:44:48: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:44:48: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:44:48: mosquitto version 2.1.2 running
+2026-04-30 11:45:04: New connection from 172.18.0.4:54750 on port 1883.
+2026-04-30 11:45:04: New client connected from 172.18.0.4:54750 as Client_Step_2_bal2 (p4, c1, k60, u'bal2').
+2026-04-30 11:45:05: Client Client_Step_2_bal2 [172.18.0.4:54750] disconnected.
+2026-04-30 11:45:06: New connection from 172.18.0.4:54772 on port 1883.
+2026-04-30 11:45:06: New client connected from 172.18.0.4:54772 as Client_Step_3_bal1 (p4, c1, k60, u'bal1').
+2026-04-30 11:45:07: Client Client_Step_3_bal1 [172.18.0.4:54772] disconnected.
+2026-04-30 11:47:09: mosquitto version 2.1.2 terminating
+2026-04-30 11:47:09: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 11:47:15: mosquitto version 2.1.2 starting
+2026-04-30 11:47:15: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 11:47:15: Bridge support available.
+2026-04-30 11:47:15: Persistence support available.
+2026-04-30 11:47:15: TLS support available.
+2026-04-30 11:47:15: TLS-PSK support available.
+2026-04-30 11:47:15: Websockets support available.
+2026-04-30 11:47:15: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 11:47:15: Opening ipv4 listen socket on port 1883.
+2026-04-30 11:47:15: Opening ipv4 listen socket on port 8883.
+2026-04-30 11:47:15: mosquitto version 2.1.2 running
+2026-04-30 11:47:35: New connection from 172.18.0.4:40432 on port 1883.
+2026-04-30 11:47:35: New client connected from 172.18.0.4:40432 as Client_Step_2_bal2 (p4, c1, k60, u'bal2').
+2026-04-30 11:47:36: Client Client_Step_2_bal2 [172.18.0.4:40432] disconnected.
+2026-04-30 11:47:36: New connection from 172.18.0.4:40444 on port 1883.
+2026-04-30 11:47:36: New client connected from 172.18.0.4:40444 as Client_Step_3_bal1 (p4, c1, k60, u'bal1').
+2026-04-30 11:47:37: Client Client_Step_3_bal1 [172.18.0.4:40444] disconnected.
+2026-04-30 15:38:45: mosquitto version 2.1.2 terminating
+2026-04-30 15:38:45: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 15:38:54: mosquitto version 2.1.2 starting
+2026-04-30 15:38:54: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 15:38:54: Bridge support available.
+2026-04-30 15:38:54: Persistence support available.
+2026-04-30 15:38:54: TLS support available.
+2026-04-30 15:38:54: TLS-PSK support available.
+2026-04-30 15:38:54: Websockets support available.
+2026-04-30 15:38:54: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 15:38:54: Opening ipv4 listen socket on port 1883.
+2026-04-30 15:38:54: Opening ipv4 listen socket on port 8883.
+2026-04-30 15:38:54: mosquitto version 2.1.2 running
+2026-04-30 16:03:01: mosquitto version 2.1.2 starting
+2026-04-30 16:03:01: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 16:03:01: Bridge support available.
+2026-04-30 16:03:01: Persistence support available.
+2026-04-30 16:03:01: TLS support available.
+2026-04-30 16:03:01: TLS-PSK support available.
+2026-04-30 16:03:01: Websockets support available.
+2026-04-30 16:03:01: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 16:03:01: Opening ipv4 listen socket on port 1883.
+2026-04-30 16:03:01: Opening ipv4 listen socket on port 8883.
+2026-04-30 16:03:01: mosquitto version 2.1.2 running
+2026-04-30 16:05:23: mosquitto version 2.1.2 terminating
+2026-04-30 16:05:23: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 16:05:53: mosquitto version 2.1.2 starting
+2026-04-30 16:05:53: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 16:05:53: Bridge support available.
+2026-04-30 16:05:53: Persistence support available.
+2026-04-30 16:05:53: TLS support available.
+2026-04-30 16:05:53: TLS-PSK support available.
+2026-04-30 16:05:53: Websockets support available.
+2026-04-30 16:05:53: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 16:05:53: Opening ipv4 listen socket on port 1883.
+2026-04-30 16:05:53: Opening ipv4 listen socket on port 8883.
+2026-04-30 16:05:53: mosquitto version 2.1.2 running
+2026-04-30 16:08:33: mosquitto version 2.1.2 terminating
+2026-04-30 16:08:33: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 16:08:37: mosquitto version 2.1.2 starting
+2026-04-30 16:08:37: Config loaded from /mosquitto/config/mosquitto.conf.
+2026-04-30 16:08:37: Bridge support available.
+2026-04-30 16:08:37: Persistence support available.
+2026-04-30 16:08:37: TLS support available.
+2026-04-30 16:08:37: TLS-PSK support available.
+2026-04-30 16:08:37: Websockets support available.
+2026-04-30 16:08:37: Plugin builtin-security has registered to receive 'basic-auth' events.
+2026-04-30 16:08:37: Opening ipv4 listen socket on port 1883.
+2026-04-30 16:08:37: Opening ipv4 listen socket on port 8883.
+2026-04-30 16:08:37: mosquitto version 2.1.2 running
+2026-04-30 16:19:55: New connection from 172.18.0.4:48930 on port 1883.
+2026-04-30 16:19:55: New client connected from 172.18.0.4:48930 as TLS_Offload_Demo (p4, c1, k60, u'user1').
+2026-04-30 16:20:42: Client TLS_Offload_Demo [172.18.0.4:48930] disconnected.
+2026-04-30 16:32:45: New connection from 172.18.0.4:52812 on port 1883.
+2026-04-30 16:32:45: New client connected from 172.18.0.4:52812 as TLS_Offload_Demo (p4, c1, k60, u'user1').
+2026-04-30 16:33:10: Client TLS_Offload_Demo [172.18.0.4:52812] disconnected.
+2026-04-30 16:35:49: New connection from 192.168.197.1:59833 on port 8883.
+2026-04-30 16:35:49: New client connected from 192.168.197.1:59833 as TLS_Offload_Demo (p4, c1, k60, u'user1').
+2026-04-30 16:35:49: Client TLS_Offload_Demo negotiated TLSv1.3 cipher TLS_AES_256_GCM_SHA384
+2026-04-30 16:35:55: Client TLS_Offload_Demo [192.168.197.1:59833] disconnected.
+2026-04-30 16:37:11: New connection from 192.168.197.1:59842 on port 8883.
+2026-04-30 16:37:11: New client connected from 192.168.197.1:59842 as TLS_Offload_Demo (p4, c1, k60, u'user1').
+2026-04-30 16:37:11: Client TLS_Offload_Demo negotiated TLSv1.3 cipher TLS_AES_256_GCM_SHA384
+2026-04-30 16:37:18: Client TLS_Offload_Demo [192.168.197.1:59842] disconnected.
+2026-04-30 16:38:38: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2026-04-30 17:08:39: Saving in-memory database to /mosquitto/data//mosquitto.db.

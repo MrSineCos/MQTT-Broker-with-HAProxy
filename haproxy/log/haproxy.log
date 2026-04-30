@@ -1,0 +1,6 @@
+mqtt_proxy  | [NOTICE]   (1) : Initializing new worker (8)
+mqtt_proxy  | [NOTICE]   (1) : Loading success.
+mqtt_proxy  | 192.168.197.1:54077 [30/Apr/2026:16:19:55.312] mqtt_frontend~ mqtt_backend/mosquitto2 CD [Security_Status: VERIFIED_SAFE]
+mqtt_proxy  | 192.168.197.1:61961 [30/Apr/2026:16:21:31.068] mqtt_frontend~ mqtt_backend/mosquitto1 -- [Security_Status: VERIFIED_SAFE]
+mqtt_proxy  | 192.168.197.1:64577 [30/Apr/2026:16:32:45.111] mqtt_frontend~ mqtt_backend/mosquitto2 -- [Security_Status: VERIFIED_SAFE]
+mqtt_proxy  | 192.168.197.1:64650 [30/Apr/2026:16:37:27.826] mqtt_frontend~ mqtt_backend/mosquitto1 -- [Security_Status: VERIFIED_SAFE]
