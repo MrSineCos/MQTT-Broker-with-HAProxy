@@ -33,19 +33,21 @@ client.tls_insecure_set(True)
 try:
     print(f"🚀 Connecting to HAProxy at {HAPROXY_IP}:{SECURE_PORT}...")
     client.connect(HAPROXY_IP, SECURE_PORT, 60)
-    
     client.loop_start()
-    
-    # Gửi tin nhắn test
-    for i in range(3):
-        message = f"TLS Offloading Test - Message {i+1}"
-        print(f"📤 Sending: {message}")
-        client.publish(TOPIC, message)
-        time.sleep(2)
-        
-    client.loop_stop()
-    client.disconnect()
-    print("🏁 Demo finished.")
-
+    print("🔁 Bắt đầu gửi tin nhắn TLS liên tục. Nhấn Ctrl+C để dừng...")
+    count = 1
+    try:
+        while True:
+            message = f"TLS Offloading Test - Message {count}"
+            print(f"📤 Sending: {message}")
+            client.publish(TOPIC, message)
+            count += 1
+            time.sleep(0.2)
+    except KeyboardInterrupt:
+        print("\n🛑 Đã nhận tín hiệu dừng (Ctrl+C). Đang ngắt kết nối...")
+    finally:
+        client.loop_stop()
+        client.disconnect()
+        print("🏁 Demo finished.")
 except Exception as e:
     print(f"❌ Error: {e}")

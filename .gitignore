@@ -1,0 +1,4 @@
+./mosquitto/data/mosqutto.db
+./mosquitto/log/mosquitto.log
+./mosquitto/data2/mosqutito.db
+./mosquitto/log2/mosquitto.log
