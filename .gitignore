@@ -1,4 +1,6 @@
-./mosquitto/data/mosqutto.db
-./mosquitto/log/mosquitto.log
-./mosquitto/data2/mosqutito.db
-./mosquitto/log2/mosquitto.log
+mosquitto/data/mosquitto.db
+mosquitto/log/mosquitto.log
+mosquitto/data2/mosquitto.db
+mosquitto/log2/mosquitto.log
+haproxy/log/*.log
+

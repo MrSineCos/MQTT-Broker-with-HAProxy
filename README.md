@@ -155,17 +155,17 @@ sudo docker stats
 ```
 
 ### 7.1 Tấn công DOS
-- **Direct Broker IP Attack (Port 1883):** Chỉnh port về `1883` trong đoạn code `dos_attack.py` rồi chạy. 
+- **Direct Broker IP Attack (Port 1883):** Chỉnh port về `1883`, `USE_TLS = False` trong đoạn code `dos_attack.py` rồi chạy. 
   => *Kết quả:* CPU utilization broker (`mqtt_broker`) đạt mức nguy hiểm, tăng > 60%.
-- **Reverse Proxy Protection (Port 8883):** Chỉnh port về `8883` trong `dos_attack.py` rồi chạy. 
+- **Reverse Proxy Protection (Port 8883):** Chỉnh port về `8883`, `USE_TLS = True` trong `dos_attack.py` rồi chạy. 
   => *Kết quả:* Tải CPU của proxy và broker sẽ ở dưới mức an toàn < 4%.
 
 ### 7.2 Cân bằng tải (Load Balancing)
 1. Tracking log của proxy qua `sudo docker compose logs -f haproxy`.
 2. Khởi chạy `check_balancing.py`.
-3. => *Kết quả:* Thông qua file log có thể thấy được 2 node broker đang luân phiên nhận và giải quyết connection một cách hiệu quả.
+3. *Kết quả:* Thông qua file log có thể thấy được 2 node broker đang luân phiên nhận và giải quyết connection một cách hiệu quả.
 
 ### 7.3 Hỗ trợ giải mã TLS ngoài Broker (TLS Offloading)
 Thủ thuật này dùng proxy để "cứu tải" quá trình mã hóa/giải mã SSL/TLS nặng nề mà thay vì đó Mosquitto phải nhận.
 - **Để Mosquitto tự xử:** Set port bằng `8884` trong file `tls_offloading.py`. Nhận thấy CPU trên `mqtt_broker` sẽ tăng cao đột biến.
-- **Giao HAproxy làm SSL proxy proxy:** Set port thành `8883` trong `tls_offloading.py`. CPU của `mqtt_broker` giảm thấy rõ ràng, lượng tải mã hóa được thay thế tại `mqtt_proxy` (HAProxy).
+- **Giao HAproxy làm SSL proxy:** Set port thành `8883` trong `tls_offloading.py`. CPU của `mqtt_broker` giảm thấy rõ ràng, lượng tải mã hóa được thay thế tại `mqtt_proxy` (HAProxy).

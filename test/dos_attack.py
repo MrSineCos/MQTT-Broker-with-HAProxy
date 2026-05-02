@@ -10,22 +10,29 @@ import sys
 import ssl
 
 # --- CẤU HÌNH ---
+
 TARGET_IP = "192.168.197.129"
 TARGET_PORT = 8883  # Đổi thành cổng của HAProxy nếu muốn test qua Proxy
 NUM_PROCESSES = 4   # Số lượng tiến trình (nên bằng số core CPU máy bạn)
-CLIENTS_PER_PROCESS = 125      # Tổng cộng 500 clients (4 * 125)
+CLIENTS_PER_PROCESS = 125      # Tổng cộng 200 clients (4 * 50)
 TOPIC = "attack/topic"
 PAYLOAD = "Spam message payload"
 USER = "user1"
 PASS = "123"
 
+# --- CẤU HÌNH TLS ---
+# Để bật/tắt TLS, chỉ cần comment hoặc uncomment dòng dưới:
+USE_TLS = True  # Đổi thành True nếu muốn dùng TLS (ví dụ khi dùng cổng 8883)
+
 def create_client(client_id, stop_event):
     """Khởi tạo một client và thực hiện gửi tin nhắn"""
+
     client = mqtt.Client(CallbackAPIVersion.VERSION2, client_id=f"AttackClient_{client_id}")
     client.username_pw_set(USER, PASS)
 
-    client.tls_set(cert_reqs=ssl.CERT_NONE)
-    client.tls_insecure_set(True)
+    if USE_TLS:
+        client.tls_set(cert_reqs=ssl.CERT_NONE)
+        client.tls_insecure_set(True)
 
     try:
         # Giảm thời gian keepalive để tạo áp lực lên việc quản lý session
